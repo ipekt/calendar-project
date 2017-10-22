@@ -1,4 +1,8 @@
-# Calendar
+# Calendar Project
+
+[Systematic Program Design - Software Abstraction](https://courses.edx.org/courses/course-v1:UBCx+SoftConst1x+3T2017/course/) course exercise
+
+## Exercise
 
 For this module’s long format problem, you will be designing a data abstraction for a Calendar. This might be similar to the data structure for a Calendar app on your phone.
 

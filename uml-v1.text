@@ -1,0 +1,11 @@
+# UML
+
+`<<inteface>>`
+---------
+| Entry  |                                       `<<subclass>>`
+|------- | <- - - - - - | Reminder | <-----------------| Meeting     |
+| date   |              |----------| <------ | Event | | ----------- |
+| time   |              | addNotes |         |-------| | attendees   |
+| label  |              ------------                   | emailInvite |
+| repeat |
+----------
