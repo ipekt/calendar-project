@@ -1,0 +1,11 @@
+# UML
+
+`<<abstract>>`
+---------
+| Entry  |              `<<subclass>>`                `<<subclass>>`
+|------- | <----------- | Reminder | <-----------------| Meeting     |
+| date   |              |----------| <------ | Event | | ----------- |
+| time   |              | addNotes |         |-------| | attendees   |
+| label  |              ------------                   | emailInvite |
+| repeat |
+----------
