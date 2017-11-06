@@ -2,12 +2,16 @@
 
 `<<abstract>>`
 ---------
-| Entry  |              `<<subclass>>`
-|------- | <----------- | Reminder |
-| date   |              |----------|
-| time   |              | addNotes |
-| label  |              ------------
-| repeat | <------ | Event | <-----------------| Meeting     |
-----------         |-------|                   | ----------- |
-                                               | attendees   |
-                                               | emailInvite |
+| Entry       |                           `<<subclass>>`
+|------------ |<------------------------- | Reminder |
+| getDate     |                           |----------|
+| getTime     |                           | getNote  |
+| getIntervalOfRepetition |               | setNote  |
+| getLabel    |               ------------
+| isRepeating | <----------- | Event       | <-----------| Meeting        |
+| setInterval |
+-------------                |-------------|             | -------------- |
+                             | setReminder |             | addAttendees   |
+                             | getReminder |             | getAttendees   |
+                                                         | sendInvites    |
+                                                         | removeAttendees|
