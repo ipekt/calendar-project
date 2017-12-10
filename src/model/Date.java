@@ -22,6 +22,7 @@ public class Date {
 
   public String getLongdate() {
     int monthIndex = Integer.valueOf(month) - 1;
-    return months.get(monthIndex) + " " + day + ", " + year;
+    String zeroRemovedDay = day.charAt(0) == '0' ? String.valueOf(day.charAt(1)) : day;
+    return months.get(monthIndex) + " " + zeroRemovedDay + ", " + year;
   }
 }
